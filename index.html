@@ -34,7 +34,225 @@
     <!-- 서영은 담당 끝 -->
 
     <!-- 김민서 담당 시작 -->
-    <section id="portfolio" class="portfolio section"></section>
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title">
+        <h2>Portfolio</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container">
+        <div class="portfolio-filters" aria-label="Portfolio filter">
+          <input type="radio" name="portfolio-filter" id="portfolio-filter-all" checked>
+          <label for="portfolio-filter-all">All</label>
+
+          <input type="radio" name="portfolio-filter" id="portfolio-filter-app">
+          <label for="portfolio-filter-app">App</label>
+
+          <input type="radio" name="portfolio-filter" id="portfolio-filter-card">
+          <label for="portfolio-filter-card">Card</label>
+
+          <input type="radio" name="portfolio-filter" id="portfolio-filter-web">
+          <label for="portfolio-filter-web">Web</label>
+        </div>
+
+        <div class="portfolio-container">
+          <div class="portfolio-column">
+            <article class="portfolio-item filter-app">
+              <img src="./images/portfolio/portfolio-app-1.webp" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-app-1" class="preview-link" aria-label="Preview App 1"></a>
+                <button type="button" class="details-link" aria-label="View App 1 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-web">
+              <img src="./images/portfolio/portfolio-web-2.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-branding-2" class="preview-link" aria-label="Preview Branding 2"></a>
+                <button type="button" class="details-link" aria-label="View Branding 2 details"></button>
+              </div>
+            </article>
+          </div>
+
+          <div class="portfolio-column">
+            <article class="portfolio-item filter-card">
+              <img src="./images/portfolio/portfolio-card-1.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-card-1" class="preview-link" aria-label="Preview Card 1"></a>
+                <button type="button" class="details-link" aria-label="View Card 1 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-app">
+              <img src="./images/portfolio/portfolio-app-2.webp" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-app-2" class="preview-link" aria-label="Preview App 2"></a>
+                <button type="button" class="details-link" aria-label="View App 2 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-app">
+              <img src="./images/portfolio/portfolio-app-3.webp" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-app-3" class="preview-link" aria-label="Preview App 3"></a>
+                <button type="button" class="details-link" aria-label="View App 3 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-web">
+              <img src="./images/portfolio/portfolio-web-3.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-branding-3" class="preview-link" aria-label="Preview Branding 3"></a>
+                <button type="button" class="details-link" aria-label="View Branding 3 details"></button>
+              </div>
+            </article>
+          </div>
+
+          <div class="portfolio-column">
+            <article class="portfolio-item filter-web">
+              <img src="./images/portfolio/portfolio-web-1.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-branding-1" class="preview-link" aria-label="Preview Branding 1"></a>
+                <button type="button" class="details-link" aria-label="View Branding 1 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-card">
+              <img src="./images/portfolio/portfolio-card-2.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-card-2" class="preview-link" aria-label="Preview Card 2"></a>
+                <button type="button" class="details-link" aria-label="View Card 2 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-card">
+              <img src="./images/portfolio/portfolio-card-3.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-card-3" class="preview-link" aria-label="Preview Card 3"></a>
+                <button type="button" class="details-link" aria-label="View Card 3 details"></button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div id="portfolio-lightbox-app-1" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-prev is-disabled" aria-hidden="true"></span>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-app-1.webp" alt="">
+          <figcaption>App 1</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-app-2" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next App image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-app-2" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-app-1" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous App image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-app-2.webp" alt="">
+          <figcaption>App 2</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-app-3" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next App image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-app-3" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-app-2" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous App image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-app-3.webp" alt="">
+          <figcaption>App 3</figcaption>
+        </figure>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-next is-disabled" aria-hidden="true"></span>
+      </div>
+
+      <div id="portfolio-lightbox-card-1" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-prev is-disabled" aria-hidden="true"></span>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-card-1.webp" alt="">
+          <figcaption>Card 1</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-card-2" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next Card image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-card-2" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-card-1" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous Card image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-card-2.webp" alt="">
+          <figcaption>Card 2</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-card-3" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next Card image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-card-3" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-card-2" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous Card image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-card-3.webp" alt="">
+          <figcaption>Card 3</figcaption>
+        </figure>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-next is-disabled" aria-hidden="true"></span>
+      </div>
+
+      <div id="portfolio-lightbox-branding-1" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-prev is-disabled" aria-hidden="true"></span>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-web-1.webp" alt="">
+          <figcaption>Branding 1</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-branding-2" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next Branding image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-branding-2" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-branding-1" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous Branding image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-web-2.webp" alt="">
+          <figcaption>Branding 2</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-branding-3" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next Branding image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-branding-3" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-branding-2" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous Branding image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-web-3.webp" alt="">
+          <figcaption>Branding 3</figcaption>
+        </figure>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-next is-disabled" aria-hidden="true"></span>
+      </div>
+    </section>
     <!-- 김민서 담당 끝 -->
 
     <!-- 임현아 담당 시작 -->
