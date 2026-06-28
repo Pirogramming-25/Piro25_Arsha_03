@@ -1,51 +1,1009 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arsha Clone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsha Clone</title>
 
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/common.css">
-  <link rel="stylesheet" href="./styles/header-about.css">
-  <link rel="stylesheet" href="./styles/services-faq.css">
-  <link rel="stylesheet" href="./styles/portfolio.css">
-  <link rel="stylesheet" href="./styles/team-testimonials.css">
-  <link rel="stylesheet" href="./styles/blog-contact-footer.css">
-  <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/header-about.css">
+    <link rel="stylesheet" href="./styles/services-faq.css">
+    <link rel="stylesheet" href="./styles/portfolio.css">
+    <link rel="stylesheet" href="./styles/team-testimonials.css">
+    <link rel="stylesheet" href="./styles/blog-contact-footer.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body>
 
-  <!-- 한지수 담당 시작 -->
-  <header id="header" class="header"></header>
+    <!-- 한지수 담당 시작 -->
+    <header id="preview-bar">
+    <div class="logo">
+        <a href="https://bootstrapmade.com/" rel="home" title="Back to BootstrapMade Homepage">
+        <img src="https://bootstrapmade.com/assets/img/logo.png" alt="BootstrapMade">
+        </a>
+    </div>
+    <div class="preview-devices">
+        <ul>
+        <li class="preview-test preview-devices-active" id="preview-test-desktop" title="Desktop preview of the Arsha template">
+            <a href="#">
+                <img src="icons/display.svg" alt="preview_desktop">
+            </a>
+        </li>
+        <li class="preview-test" id="preview-test-tablet" title="Table preview of the Arsha template">
+            <a href="#">
+                <img src="icons/tablet.svg" alt="preview_tablet">
+            </a>
+        </li>
+        <li class="preview-test" id="preview-test-mobile" title="Mobile preview of the Arsha template">
+            <a href="#">
+                <img src="icons/phone.svg" alt="preview_mobile">
+            </a>
+        </li>
+        </ul>
+    </div>
+    
+    <div class="current-template">
+        <a href="#"><img src="icons/chevron-left.svg" alt="arrow_left"></a>
+        <a class="template-home" href="https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/" title="Arsha Template Home Page">Arsha</a>
+        <a href="#"><img src="icons/chevron-right.svg" alt="arrow_right"></a>
+    </div>
+    <div class="navigate">
+        <a href="https://bootstrapmade.com/content/demo/Arsha/" target="_top" title="Hide the demo bar"></a>
+        <a href="#"><img src="icons/box-arrow-up-right.svg" alt="bow_arrow_up"></a>
+        <a class="download" href="https://bootstrapmade.com/arsha-free-bootstrap-thml-template-corporate/#download" title="Download the Arsha Template">
+        <span>Download</span>
+        </a>
+    </div>
+    </header>
 
-  <main class="main">
-    <section id="hero" class="hero section dark-background"></section>
-    <section id="clients" class="clients section light-background"></section>
-    <section id="about" class="about section"></section>
-    <section id="why-us" class="section why-us light-background"></section>
-    <section id="skills" class="skills section"></section>
+    <header id="header" class="header">
+    <div class = "container">
+        <a href="index.html" class="logo">
+        <h1 class="sitename">Arsha</h1>
+        </a>
+        <nav id="navmenu" class="navmenu">
+        <ul>
+            <li>
+            <a href="#hero" class="active">Home</a>
+            </li>
+            <li>
+            <a href="#about">About</a>
+            </li>
+            <li>
+            <a href="#services">Services</a>
+            </li>
+            <li>
+            <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+            <a href="#team">Team</a>
+            </li>
+            <li>
+            <a href="#pricing">Pricing</a>
+            </li>
+            <li>
+            <a href="#recent-blog-post">Blog</a>
+            </li>
+            <li class="dropdown">
+            <a href="#">
+                <span>Dropdown</span>
+            </a>
+            <ul>
+                <li>
+                <a href="#">Dropdown 1</a>
+                </li>
+                <li class="dropdown">
+                <a href="#">
+                    <span>Deep Dropdown</span>
+                </a>
+                <ul>
+                    <li>
+                    <a href="#">Deep Dropdown 1</a>
+                    </li>
+                    <li>
+                    <a href="#">Deep Dropdown 2</a>
+                    </li>
+                    <li>
+                    <a href="#">Deep Dropdown 3</a>
+                    </li>
+                    <li>
+                    <a href="#">Deep Dropdown 4</a>
+                    </li>
+                    <li>
+                    <a href="#">Deep Dropdown 5</a>
+                    </li>
+                </ul>
+                </li>
+                <li>
+                <a href="#">Dropdown 2</a>
+                </li>
+                <li>
+                <a href="#">Dropdown 3</a>
+                </li>
+                <li>
+                <a href="#">Dropdown 4</a>
+                </li>
+            </ul>
+            </li>
+            <li>
+            <a href="#contact" class>Contact</a>
+            </li>
+        </ul>
+        
+        </nav>
+        <a class="btn-getstarted" href="#about">Get Started</a>
+        <a href="#"><img src="icons/list.svg" alt="list"></a>
+    </div>
+    </header>
+    <main class="main">
+    <section id="hero" class="hero section">
+        <div class="container">
+        <h1>Better Solutions For Your Business</h1>
+        <p>We are team of talented designers making websites with Bootstrap</p>
+        <div class="d-flex">
+            <a href="#about" class="btn-get-started">Get Started</a>
+            <a href="#" class="glightbox btn-watch-video">
+                <img src="icons/play-circle.svg" alt="play_circle">
+                <span>Watch Video</span>
+            </a>
+        </div>
+        </div>
+        <img src ="images/hero-img.png" class="img-fluid animated" alt="hero image">
+    </section>
+
+    <!--Clients Section-->
+    <section id="clients" class="clients section">
+        <div class="container">
+            <img src="images/clients-1.webp" alt="clients1">
+            <img src="images/clients-2.webp" alt="clients2">
+            <img src="images/clients-3.webp" alt="clients3">
+            <img src="images/clients-4.webp" alt="clients4">
+            <img src="images/clients-5.webp" alt="clients5">
+            <img src="images/clients-6.webp" alt="clients6">
+            <img src="images/clients-7.webp" alt="clients7">
+            <img src="images/clients-8.webp" alt="clients8">
+        </div>
+    </section>
+    <!--About Section-->
+    <section id="about" class="about section">
+        <!--Section Title-->
+        <div class="container section-title">
+            <h2>
+            ABOUT US
+            </h2>
+        </div>
+        <!--End Section Title-->
+        <div class="container">
+        <div class="row gy-4">
+            <p>
+                " Lorem ipsum dolor sit amet, consectetur adipiscing elit, se do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+            </p>
+            
+            <ul>
+                <li>
+                    <a href="#"><img src="icons/check2-circle.svg" alt="check2_circle"></a>
+                    <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                </li>
+                <li>
+                    <a href="#"><img src="icons/check2-circle.svg" alt="check2_circle"></a>
+                    <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+                </li>
+                <li>
+                    <a href="#"><img src="icons/check2-circle.svg" alt="check2_circle"></a>
+                    <span>Ullamco laboris nisi ut aliquip ex ea commodo</span>
+                </li>
+            </ul>
+        </div>
+        <p>
+            "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariature. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
+        </p>
+        <a href="#" class="read-more">
+            <span>Read More</span>
+            <img src="icons/arrow-right.svg" alt="arrow_right">
+        </a>
+        </div>
+    </section>
+    <!--/About Section-->
+    <!--Why Us Section-->
+    <section id="why-us" class="section why-us">
+        <div class="container-fluid">
+            <div class="row gy-4">
+                <h3>
+                    <span>Eum ipsam laborum deleniti </span>
+                    <strong>velit pariatur architecto aut nihil</strong>
+                </h3>
+                <p>
+                    " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit "
+                </p>
+            </div>
+            <div class="faq-item faq-active">
+                <h3>
+                    <span>01</span>
+                    " Non consectetur a erat nam at lectus urna duis?"
+                </h3>
+                <div class="faq-content">
+                    <p>
+                        "Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non."
+                    </p>
+                </div>
+                <a href="#"><img src="icons/chevron-right.svg" alt="chevron_right"></a>
+            </div>
+            <!--End Faq item-->
+            <div class="faq-item">
+                <h3>
+                    <span>02</span>
+                    " Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?"
+                </h3>
+                <div class="faq-content">
+                    <p>
+                        "Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui."
+                    </p>
+                </div>
+                <a href="#"><img src="icons/chevron-right.svg" alt="chevron_right"></a>
+            </div>
+            <!--End Faq item-->
+            <div class="faq-content">
+                <h3>
+                    <span>03</span>
+                    "Dolor sit amet consectetur adipiscing elit pellentesque?"
+                </h3>
+                <div class="faq-content">
+                    <p>
+                        "Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis"
+                    </p>
+                </div>
+                <a href="#"><img src="icons/chevron-right.svg" alt="chevron_right"></a>
+            </div>
+            <!--End Faq item-->
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="images/why-us.png" class="img-fluid">
+        </div>
+    </section>
+    <!--/Why Us Section-->
+    <!--Skills Section-->
+    <section id="skills" class="skills section">
+        <div class="row">
+            <img src="images/illustration-10.webp" class="img-fluid" alt>
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>Voluptatem dignissimos provident quasi corporis voluptas</h3>
+            <p class="fst-italic">
+                " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            </p>
+            <div class="skills-content skills-animation">
+                <div class="progress">
+                    <span class="skill">
+                        <span>HTML</span>
+                    </span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar"></div>
+                    </div>
+                </div>
+                <!--End Skills Item-->
+                <div class="progress">
+                    <span class="skill">
+                        <span>CSS</span>
+                    </span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar"></div>
+                    </div>
+                </div>
+                <!--End Skills Item-->
+                <div class="progress">
+                    <span class="skill">
+                        <span>JavaScript</span>
+                    </span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar"></div>
+                    </div>
+                </div>
+                <!--End Skills Item-->
+                <div class="progress">
+                    <span class="skill">
+                        <span>Photoshop</span>
+                    </span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar"></div>
+                    </div>
+                </div>
+                <!--End Skills Item-->
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- 한지수 담당 끝 -->
 
-    <!-- 서영은 담당 시작 -->
-    <section id="services" class="services section light-background"></section>
-    <section id="work-process" class="work-process section"></section>
-    <section id="call-to-action" class="call-to-action section dark-background"></section>
-    <!-- 서영은 담당 끝 -->
+<!-- 서영은 담당 시작 -->
+<!-- 서비스 -->
+<section id="services" class="services section">
+    <div class="container section-title"> 
+      <h2>SERVICES</h2>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+
+    <div class="container services-container">
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/ye/service1.png" alt="">
+                </div>
+                <h4>Lorem Ipsum</h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/ye/service2.png" alt="">
+                </div>
+                <h4>Sed ut perspici</h4>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/ye/service3.png" alt="">
+                </div>
+                <h4>Magni Dolores</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/ye/service4.png" alt="">
+                </div>
+                <h4>Nemo Enim</h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- work-process -->
+<section id="work-process" class="work-process section">
+    <div class="container section-title">
+        <h2>WORK PROCESS</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+
+    <div class="wp_steps-container container">
+        <!-- Step 01 -->
+        <div class="wp_steps-item">
+            <div class="wp_steps-image">
+                <img src="images/ye/steps-1.webp" alt="Step 1">
+            </div>
+            <div class="wp_steps-number">01</div>
+            <h3>Research & Analysis</h3>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
+            <div class="wp_steps-features">
+                <div class="wp_feature-item">
+                    <img src="images/ye/checkbox.png" alt="check">
+                    <span>Market Research</span>
+                </div>
+                <div class="wp_feature-item">
+                    <img src="images/ye/checkbox.png" alt="check">
+                    <span>Data Analysis</span>
+                </div>
+                <div class="wp_feature-item">
+                    <img src="images/ye/checkbox.png" alt="check">
+                    <span>User Feedback</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 02 -->
+        <div class="wp_steps-item">
+            <div class="wp_steps-image">
+                <img src="images/ye/steps-2.webp" alt="Step 2">
+            </div>
+            <div class="wp_steps-number">02</div>
+            <h3>Design & Planning</h3>
+            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+            <div class="wp_steps-features">
+                <div class="wp_feature-item">
+                    <img src="images/ye/checkbox.png" alt="check">
+                    <span>Wireframing</span>
+                </div>
+                <div class="wp_feature-item">
+                    <img src="images/ye/checkbox.png" alt="check">
+                    <span>UI/UX Design</span>
+                </div>
+                <div class="wp_feature-item">
+                    <img src="images/ye/checkbox.png" alt="check">
+                    <span>Prototyping</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 03 -->
+        <div class="wp_steps-item">
+            <div class="wp_steps-image">
+                <img src="images/ye/steps-3.webp" alt="Step 3">
+            </div>
+            <div class="wp_steps-number">03</div>
+            <h3>Development & Launch</h3>
+            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+            <div class="wp_steps-features">
+                <div class="wp_feature-item">
+                    <img src="images/ye/checkbox.png" alt="check">
+                    <span>Development</span>
+                </div>
+                <div class="wp_feature-item">
+                    <img src="images/ye/checkbox.png" alt="check">
+                    <span>Testing</span>
+                </div>
+                <div class="wp_feature-item">
+                    <img src="images/ye/checkbox.png" alt="check">
+                    <span>Deployment</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call To Action Section -->
+<section id="call-to-action" class="call-to-action section">
+  <img src="images/ye/cta_bg.webp" alt="cta배경화면" class="cta-bg">
+    <div class="cta_container">
+        <div class="cta-content">
+            <div class="cta-text">
+              <h2>Call To Action</h2>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="cta-button">
+              <button type="button">Call To Action</button>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- 서영은 담당 끝 -->
+
 
     <!-- 김민서 담당 시작 -->
-    <section id="portfolio" class="portfolio section"></section>
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title">
+        <h2>Portfolio</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container">
+        <div class="portfolio-filters" aria-label="Portfolio filter">
+          <input type="radio" name="portfolio-filter" id="portfolio-filter-all" checked>
+          <label for="portfolio-filter-all">All</label>
+
+          <input type="radio" name="portfolio-filter" id="portfolio-filter-app">
+          <label for="portfolio-filter-app">App</label>
+
+          <input type="radio" name="portfolio-filter" id="portfolio-filter-card">
+          <label for="portfolio-filter-card">Card</label>
+
+          <input type="radio" name="portfolio-filter" id="portfolio-filter-web">
+          <label for="portfolio-filter-web">Web</label>
+        </div>
+
+        <div class="portfolio-container">
+          <div class="portfolio-column">
+            <article class="portfolio-item filter-app">
+              <img src="./images/portfolio/portfolio-app-1.webp" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-app-1" class="preview-link" aria-label="Preview App 1"></a>
+                <button type="button" class="details-link" aria-label="View App 1 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-web">
+              <img src="./images/portfolio/portfolio-web-2.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-branding-2" class="preview-link" aria-label="Preview Branding 2"></a>
+                <button type="button" class="details-link" aria-label="View Branding 2 details"></button>
+              </div>
+            </article>
+          </div>
+
+          <div class="portfolio-column">
+            <article class="portfolio-item filter-card">
+              <img src="./images/portfolio/portfolio-card-1.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-card-1" class="preview-link" aria-label="Preview Card 1"></a>
+                <button type="button" class="details-link" aria-label="View Card 1 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-app">
+              <img src="./images/portfolio/portfolio-app-2.webp" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-app-2" class="preview-link" aria-label="Preview App 2"></a>
+                <button type="button" class="details-link" aria-label="View App 2 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-app">
+              <img src="./images/portfolio/portfolio-app-3.webp" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-app-3" class="preview-link" aria-label="Preview App 3"></a>
+                <button type="button" class="details-link" aria-label="View App 3 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-web">
+              <img src="./images/portfolio/portfolio-web-3.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-branding-3" class="preview-link" aria-label="Preview Branding 3"></a>
+                <button type="button" class="details-link" aria-label="View Branding 3 details"></button>
+              </div>
+            </article>
+          </div>
+
+          <div class="portfolio-column">
+            <article class="portfolio-item filter-web">
+              <img src="./images/portfolio/portfolio-web-1.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-branding-1" class="preview-link" aria-label="Preview Branding 1"></a>
+                <button type="button" class="details-link" aria-label="View Branding 1 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-card">
+              <img src="./images/portfolio/portfolio-card-2.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-card-2" class="preview-link" aria-label="Preview Card 2"></a>
+                <button type="button" class="details-link" aria-label="View Card 2 details"></button>
+              </div>
+            </article>
+
+            <article class="portfolio-item filter-card">
+              <img src="./images/portfolio/portfolio-card-3.webp" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="#portfolio-lightbox-card-3" class="preview-link" aria-label="Preview Card 3"></a>
+                <button type="button" class="details-link" aria-label="View Card 3 details"></button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div id="portfolio-lightbox-app-1" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-prev is-disabled" aria-hidden="true"></span>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-app-1.webp" alt="">
+          <figcaption>App 1</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-app-2" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next App image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-app-2" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-app-1" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous App image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-app-2.webp" alt="">
+          <figcaption>App 2</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-app-3" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next App image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-app-3" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-app-2" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous App image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-app-3.webp" alt="">
+          <figcaption>App 3</figcaption>
+        </figure>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-next is-disabled" aria-hidden="true"></span>
+      </div>
+
+      <div id="portfolio-lightbox-card-1" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-prev is-disabled" aria-hidden="true"></span>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-card-1.webp" alt="">
+          <figcaption>Card 1</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-card-2" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next Card image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-card-2" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-card-1" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous Card image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-card-2.webp" alt="">
+          <figcaption>Card 2</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-card-3" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next Card image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-card-3" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-card-2" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous Card image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-card-3.webp" alt="">
+          <figcaption>Card 3</figcaption>
+        </figure>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-next is-disabled" aria-hidden="true"></span>
+      </div>
+
+      <div id="portfolio-lightbox-branding-1" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-prev is-disabled" aria-hidden="true"></span>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-web-1.webp" alt="">
+          <figcaption>Branding 1</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-branding-2" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next Branding image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-branding-2" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-branding-1" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous Branding image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-web-2.webp" alt="">
+          <figcaption>Branding 2</figcaption>
+        </figure>
+        <a href="#portfolio-lightbox-branding-3" class="portfolio-lightbox-nav portfolio-lightbox-next" aria-label="Next Branding image"></a>
+      </div>
+
+      <div id="portfolio-lightbox-branding-3" class="portfolio-lightbox">
+        <a href="#portfolio-close" class="portfolio-lightbox-backdrop" aria-label="Close preview"></a>
+        <a href="#portfolio-close" class="portfolio-lightbox-close" aria-label="Close preview"></a>
+        <a href="#portfolio-lightbox-branding-2" class="portfolio-lightbox-nav portfolio-lightbox-prev" aria-label="Previous Branding image"></a>
+        <figure class="portfolio-lightbox-content">
+          <img src="./images/portfolio/portfolio-web-3.webp" alt="">
+          <figcaption>Branding 3</figcaption>
+        </figure>
+        <span class="portfolio-lightbox-nav portfolio-lightbox-next is-disabled" aria-hidden="true"></span>
+      </div>
+    </section>
     <!-- 김민서 담당 끝 -->
 
     <!-- 임현아 담당 시작 -->
-    <section id="team" class="team section"></section>
-    <section id="pricing" class="pricing section light-background"></section>
-    <section id="testimonials" class="testimonials section"></section>
+    <section id="team" class="team-section">
+        <div class="container-section-title">
+            <h2>TEAM</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        
+        <div class="container">
+            <div class="team-member">
+                <div class="pic">
+                    <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/person/person-m-7.webp" class="img-fluid" alt="Walter White">
+                </div>
+                <div class="member-info">
+                    <h4>Walter White</h4>
+                    <span>Chief Executive Officer</span>
+                    <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                    <div class="social">
+                        <a href="#"><img src="icons/twitter-x.svg" alt="twitter"></a>
+                        <a href="#"><img src="icons/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="icons/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="icons/linkedin.svg" alt="linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="pic">
+                    <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/person/person-f-8.webp" class="img-fluid" alt="Sarah Jhonson">
+                </div>
+                <div class="member-info">
+                    <h4>Sarah Jhonson</h4>
+                    <span>Product Manager</span>
+                    <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                    <div class="social">
+                        <a href="#"><img src="icons/twitter-x.svg" alt="twitter"></a>
+                        <a href="#"><img src="icons/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="icons/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="icons/linkedin.svg" alt="linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="pic">
+                    <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/person/person-m-6.webp" class="img-fluid" alt="William Anderson">
+                </div>
+                <div class="member-info">
+                    <h4>William Anderson</h4>
+                    <span>CTO</span>
+                    <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                    <div class="social">
+                        <a href="#"><img src="icons/twitter-x.svg" alt="twitter"></a>
+                        <a href="#"><img src="icons/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="icons/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="icons/linkedin.svg" alt="linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="pic">
+                    <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/person/person-f-4.webp" class="img-fluid" alt="Amanda Jepson">
+                </div>
+                <div class="member-info">
+                    <h4>Amanda Jepson</h4>
+                    <span>Accountant</span>
+                    <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                    <div class="social">
+                        <a href="#"><img src="icons/twitter-x.svg" alt="twitter"></a>
+                        <a href="#"><img src="icons/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="icons/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="icons/linkedin.svg" alt="linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing-section">
+        <div class="container-section-title">
+            <h2>PRICING</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        
+        <div class="container-pricing-container">
+            
+            <div class="pricing-item">
+                <h3>Free Plan</h3>
+                <h4>
+                    <sup>$</sup>0<span> / month</span>
+                </h4>
+                <ul>
+                    <li><span><img src="icons/check.svg" alt="check">Quam adipiscing vitae proin</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Nec feugiat nisl pretium</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Nulla at volutpat diam uteera</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Pharetra massa massa ultricies</span></li>
+                    <li class="na"><span><img src="icons/x.svg" alt="cancel">Massa ultricies mi quis hendrerit</span></li>
+                </ul>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+
+            <div class="pricing-item-featured">
+                <h3>Business Plan</h3>
+                <h4>
+                    <sup>$</sup>29<span> / month</span>
+                </h4>
+                <ul>
+                    <li><span><img src="icons/check.svg" alt="check">Quam adipiscing vitae proin</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Nec feugiat nisl pretium</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Nulla at volutpat diam uteera</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Pharetra massa massa ultricies</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Massa ultricies mi quis hendrerit</span></li>
+                </ul>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+
+            <div class="pricing-item">
+                <h3>Developer Plan</h3>
+                <h4>
+                    <sup>$</sup>49<span> / month</span>
+                </h4>
+                <ul>
+                    <li><span><img src="icons/check.svg" alt="check">Quam adipiscing vitae proin</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Nec feugiat nisl pretium</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Nulla at volutpat diam uteera</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Pharetra massa massa ultricies</span></li>
+                    <li><span><img src="icons/check.svg" alt="check">Massa ultricies mi quis hendrerit</span></li>
+                </ul>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container-section-title">
+            <h2>TESTIMONIALS</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        
+        <div class="container">
+            <div class="testimonials-slider">
+                <div class="testimonials-wrapper">
+
+                    <div class="testimonial-item">
+                        <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/person/person-m-12.webp" class="testimonial-img" alt="Matt Brandon">
+                        <h3>Matt Brandon</h3>
+                        <h4>Freelancer</h4>
+                        <div class="stars">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                        </div>
+                        <p>
+                            <img class="quote" src="icons/quote-left.svg" alt="">
+                            Fugiat enim eram quae cillum dolore amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                            <img class="r-quote" src="icons/quote-left.svg" alt="">
+                        </p>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/person/person-m-13.webp" class="testimonial-img" alt="John Larson">
+                        <h3>John Larson</h3>
+                        <h4>Entrepreneur</h4>
+                        <div class="stars">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                        </div>
+                        <p>
+                            <img class="quote" src="icons/quote-left.svg" alt="">
+                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                            <img class="r-quote" src="icons/quote-left.svg" alt="">
+                        </p>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/person/person-m-9.webp" class="testimonial-img" alt="Saul Goodman">
+                        <h3>Saul Goodman</h3>
+                        <h4>Ceo & Founder</h4>
+                        <div class="stars">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                        </div>
+                        <p>
+                            <img class="quote" src="icons/quote-left.svg" alt="">
+                            Proin iaculis purus consequat sem cure digni ssim donec ssim donec porttitora entum suscipit rhoncus. Accussantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                            <img class="r-quote" src="icons/quote-left.svg" alt="">
+                        </p>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/person/person-f-5.webp" class="testimonial-img" alt="Sara Wilsson">
+                        <h3>Sara Wilsson</h3>
+                        <h4>Designer</h4>
+                        <div class="stars">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                        </div>
+                        <p>
+                            <img class="quote" src="icons/quote-left.svg" alt="">
+                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                            <img class="r-quote" src="icons/quote-left.svg" alt="">
+                        </p>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/person/person-f-12.webp" class="testimonial-img" alt="Jena Karlis">
+                        <h3>Jena Karlis</h3>
+                        <h4>Store Owner</h4>
+                        <div class="stars">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                            <img src="icons/star-fill.svg" alt="star">
+                        </div>
+                        <p>
+                            <img class="quote" src="icons/quote-left.svg" alt="">
+                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                            <img class="r-quote" src="icons/quote-left.svg" alt="">
+                        </p>
+                    </div>
+
+                </div> </div> <div class="pagination">
+                <span class="dot dot1 active"></span> <span class="dot dot2"></span>
+                <span class="dot dot3"></span>
+                <span class="dot dot4"></span>
+                <span class="dot dot5"></span>
+            </div>
+            
+        </div>
+    </section>
     <!-- 임현아 담당 끝 -->
 
-    <!-- 서영은 담당 FAQ 시작 -->
-    <section id="faq" class="faq section light-background"></section>
-    <!-- 서영은 담당 FAQ 끝 -->
+ <!-- 서영은 담당 FAQ 시작 -->
+<section id="faq" class="faq section">
+    <div class="faq-header">
+        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. 
+            Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+
+    <div class="container faq_container">
+        <div class="faq-list">
+            <details class="faq-item">
+                <summary>
+                    <img class="faq-icon" src="images/ye/question.png" alt="">
+                    <span class="faq-title">Non consectetur a erat nam at lectus urna duis?</span>
+                </summary>
+                <div class="faq-content">
+                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. 
+                        Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <img class="faq-icon" src="images/ye/question.png" alt="">
+                    <span class="faq-title">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                </summary>
+                <div class="faq-content">
+                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. 
+                      Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <img class="faq-icon" src="images/ye/question.png" alt="">
+                    <span class="faq-title">Dolor sit amet consectetur adipiscing elit pellentesque?</span>
+                </summary>
+                <div class="faq-content">
+                    <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. 
+                      Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. 
+                      Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. 
+                      Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <img class="faq-icon" src="images/ye/question.png" alt="">
+                    <span class="faq-title">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</span>
+                </summary>
+                <div class="faq-content">
+                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. 
+                      Id interdum velit laoreet id donec ultrices. 
+                      Fringilla phasellus faucibus scelerisque eleifend donec pretium. 
+                      Est pellentesque elit ullamcorper dignissim. 
+                      Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <img class="faq-icon" src="images/ye/question.png" alt="">
+                    <span class="faq-title">Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span>
+                </summary>
+                <div class="faq-content">
+                    <p>Molestie a iaculis at erat pellentesque adipiscing commodo. 
+                      Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. 
+                      Sit amet nisl suscipit adipiscing bibendum est. 
+                      Purus gravida quis blandit turpis cursus in</p>
+                </div>
+            </details>
+        </div>
+    </div>
+</section>
+  <!-- 서영은 담당 FAQ 끝 -->
 
     <!-- 이지아 담당 시작 -->
     <section id="subscribe" class="subscribe section">
