@@ -1,4 +1,8 @@
 /* Portfolio: 김민서 */
+body:has(.portfolio .portfolio-lightbox:target) {
+  overflow: hidden;
+}
+
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px;
