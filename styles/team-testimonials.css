@@ -306,6 +306,7 @@ body {
     height: 18px;
     margin-right: 10px;
     flex-shrink: 0;
+    filter: invert(26%) sepia(60%) saturate(3437%) hue-rotate(144deg) brightness(99%) contrast(96%);
 }
 
 #pricing .na {
