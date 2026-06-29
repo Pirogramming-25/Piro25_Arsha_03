@@ -1,1 +1,543 @@
 /* Services / Work Process / Call To Action / FAQ: 서영은 */
+/* Services.css */
+
+.services {
+  background-color: #f5f6f8;
+  height: 545px;
+  padding: 50px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 55px;  
+}
+
+.section-title h2 {
+  color: #37517e;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: "";
+  display: block;
+  width: 155px;
+  height: 1.5px;
+  background-color: #c8c8c8;
+  margin: 18px auto 0;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  left: 5%;
+  bottom: -0.5px;
+  transform: translateX(-50%);
+  width: 55px;
+  height: 2.5px;
+  background-color: #47b2e4;
+  z-index: 1;
+}
+
+.section-title p {
+  color: #444444;
+  font-size: 15px;
+  margin: 0;
+}
+
+.services-container {
+  width: 78%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  padding: 45px 10px 60px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease-in-out;
+  margin-top: -60px;  
+}
+
+.service-card:hover {
+  transform: translateY(-12px);
+}
+
+.service-card .service-icon {
+  margin-bottom: 20px;
+}
+
+.service-card .service-icon img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.service-card h4 {
+  color: #37517e;
+  font-size: 17px;
+  font-weight: 800;
+  margin: 0 0 25px 13px;
+  transition: color 0.3s ease-in-out;
+}
+
+.service-card:hover h4 {
+  color: #47b2e4;
+}
+
+.service-card p {
+  color: #444444;
+  font-size: 15px;
+  font-weight: 355;
+  margin: 0 0 0 13px;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* Work Process.css */
+
+.work-process {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.work-process .section-title {
+  text-align: center;
+  margin-bottom: 55px;  
+}
+
+.work-process .section-title h2 {
+  color: #37517e;
+  font-size: 31px;
+  font-weight: 800;
+  margin: 0 0 20px;
+  position: relative;
+}
+
+.work-process .section-title h2::after {
+  content: "";
+  display: block;
+  width: 145px;
+  height: 1.2px;
+  background-color: #c8c8c8;
+  margin: 18px auto 0;
+}
+
+.work-process .section-title h2::before {
+  content: "";
+  position: absolute;
+  left: 5%;
+  bottom: -0.5px;
+  transform: translateX(-50%);
+  width: 55px;
+  height: 2.5px;
+  background-color: #47b2e4;
+  z-index: 1;
+}
+
+.work-process .section-title p {
+  color: #444444;
+  font-size: 16px;
+  margin: 0;
+}
+
+.wp_steps-container {
+  max-width: 1350px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: -100px;
+  gap: 24px;
+}
+
+.wp_steps-item {
+  background-color: #ffffff;
+  border-radius: 14px;
+  margin-top: 30px;
+  padding: 0px 22px 28px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  
+}
+
+.wp_steps-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 30px rgba(70, 181, 232, 0.116);
+}
+
+.wp_steps-image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.wp_steps-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+.wp_steps-item:hover .wp_steps-image img {
+  transform: scale(1.23);
+}
+
+.wp_steps-number {
+  width: 60px;
+  height: 60px;
+  background-color: #47b2e4;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 22.5px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -60px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.wp_steps-item h3 {
+  color: #37517e;
+  font-size: 20px;
+  font-weight: 800;
+  margin: -8px 0 16px;
+}
+
+.wp_steps-item p {
+  color: #666666;
+  font-size: 16px;
+  margin: 0 0 26px;
+}
+
+.wp_steps-features {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.wp_feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wp_feature-item img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.wp_feature-item span {
+  color: #666666;
+  font-size: 15px;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* Call To Action.css */
+.call-to-action {
+  position: relative;
+  overflow: visible;
+  height: 310px;
+  
+  background-image: url("../images/cta/cta-bg.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.call-to-action::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(55, 81, 126, 0.72);
+  z-index: 2;
+}
+
+.call-to-action .cta_container {
+  position: relative;
+  z-index: 3;
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.cta-content {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+
+}
+
+.cta-text {
+  flex: 1;
+  margin-left: -65px;
+}
+
+.cta-text h2 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 800;
+  margin: 0 0 14px;
+}
+
+.cta-text p {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.cta-button {
+  flex-shrink: 0;
+}
+
+.cta-button button {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  padding: 12px 40px;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: transform 0.3s ease
+}
+
+.cta-button button:hover {
+  background-color: #47b2e4;
+  border-color: #47b2e4;
+}
+
+
+/* ------------------------------------------------------------------------------- */
+/* Frequently Asked Questions.css */
+
+.faq {
+  background-color: #f4f6f8;
+  padding: 50px;
+}
+
+.faq-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.faq-header h2 {
+  color: #37517e;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0 0 20px;
+  position: relative;
+}
+
+.faq-header h2::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 1px;
+  background-color: #c8c8c8;
+  margin: 18px auto 0;
+}
+
+.faq-header h2::before {
+  content: "";
+  position: absolute;
+  right: 740px;
+  bottom: -0.5px;
+  transform: translateX(-50%);
+  width: 52px;
+  height: 3px;
+  background-color: #47b2e4;
+  z-index: 1;
+}
+
+.faq-header p {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0px auto;
+  color: #555555;
+  font-size: 16px;
+}
+
+.faq .faq_container {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-item {
+  background-color: #ffffff;  
+}
+
+
+.faq-item summary {
+  list-style: none;
+  min-height: 64px;
+  padding: 0 28px 0 22px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  position: relative;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin: 0 0 4px -10px;
+}
+
+.faq-title {
+  color: #37517e;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 0 -5px;
+  padding: 0 0 5px;
+  flex: 1;
+}
+
+
+.faq-item summary::after {
+  content: "›";
+  color: #666666;
+  font-size: 32px;
+  font-weight: 100;
+  margin-top: -15px;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+
+.faq-item[open] summary::after {
+  transform: rotate(90deg);
+  color: #47b2e4;
+}
+
+.faq-item[open] .faq-title {
+  color: #47b2e4;
+}
+
+.faq-content {
+  padding: 0 28px 24px 58px;
+}
+
+.faq-content p {
+  color: #444444;
+  font-size: 16px;
+  margin: -15px 0 0 -36px;
+}
+
+
+/* 애니메이션 */
+@keyframes fadeInUpBig {
+  from {
+    opacity: 0;
+    translate: 0 100px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes zoomInUp {
+  from {
+    opacity: 0;
+    scale: 0.85;
+    translate: 0 80px;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+    translate: 0 0;
+  }
+}
+
+.section-title,
+.service-card,
+.work-process .section-title,
+.wp_steps-item,
+.faq-header,
+.faq-item {
+  opacity: 0;
+  animation-name: fadeInUpBig;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 35%;
+}
+
+.call-to-action .cta-text, .call-to-action .cta-button  {
+  opacity: 0;
+  animation-name: zoomInUp;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 35%;  
+  animation-delay: 0.6s;
+}
+
+/* 카드/FAQ 순차 애니메이션 */
+.service-card:nth-child(1),
+.wp_steps-item:nth-child(1),
+.faq-item:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.service-card:nth-child(2),
+.wp_steps-item:nth-child(2),
+.faq-item:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.service-card:nth-child(3),
+.wp_steps-item:nth-child(3),
+.faq-item:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.service-card:nth-child(4),
+.faq-item:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.faq-item:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+.section-title,
+.work-process .section-title,
+.faq-header {
+  animation-delay: 0.5s;
+}
