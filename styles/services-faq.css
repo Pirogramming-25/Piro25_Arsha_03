@@ -14,7 +14,7 @@
 
 .section-title h2 {
   color: #37517e;
-  font-size: 30px;
+  font-size: 33px;
   font-weight: 800;
   margin-bottom: 20px;
   position: relative;
@@ -33,17 +33,17 @@
   content: "";
   position: absolute;
   left: 5%;
-  bottom: -0.5px;
+  bottom: -1px;
   transform: translateX(-50%);
   width: 55px;
-  height: 2.5px;
+  height: 3.5px;
   background-color: #47b2e4;
   z-index: 1;
 }
 
 .section-title p {
   color: #444444;
-  font-size: 15px;
+  font-size: 16px;
   margin: 0;
 }
 
@@ -62,7 +62,7 @@
 .service-card {
   background-color: #ffffff;
   padding: 45px 10px 60px;
-  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 14px 50px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease-in-out;
   margin-top: -60px;  
 }
@@ -82,7 +82,7 @@
 
 .service-card h4 {
   color: #37517e;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 800;
   margin: 0 0 25px 13px;
   transition: color 0.3s ease-in-out;
@@ -94,9 +94,8 @@
 
 .service-card p {
   color: #444444;
-  font-size: 15px;
-  font-weight: 355;
-  margin: 0 0 0 13px;
+  font-size: 14px;
+  margin: -5px 0 0 13px;
 }
 
 /* ------------------------------------------------------------------------------- */
@@ -114,7 +113,7 @@
 
 .work-process .section-title h2 {
   color: #37517e;
-  font-size: 31px;
+  font-size: 33px;
   font-weight: 800;
   margin: 0 0 20px;
   position: relative;
@@ -133,10 +132,10 @@
   content: "";
   position: absolute;
   left: 5%;
-  bottom: -0.5px;
+  bottom: -1px;
   transform: translateX(-50%);
-  width: 55px;
-  height: 2.5px;
+  width: 60px;
+  height: 3px;
   background-color: #47b2e4;
   z-index: 1;
 }
@@ -163,6 +162,7 @@
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;  
+
 }
 
 .wp_steps-item:hover {
@@ -210,7 +210,7 @@
 
 .wp_steps-item h3 {
   color: #37517e;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 800;
   margin: -8px 0 16px;
 }
@@ -241,7 +241,7 @@
 
 .wp_feature-item span {
   color: #666666;
-  font-size: 15px;
+  font-size: 13.5px;
 }
 
 /* ------------------------------------------------------------------------------- */
@@ -249,7 +249,7 @@
 .call-to-action {
   position: relative;
   overflow: visible;
-  height: 310px;
+  height: 340px;
   
   background-image: url("../images/cta/cta-bg.webp");
   background-attachment: fixed;
@@ -262,7 +262,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(55, 81, 126, 0.72);
+  background-color: rgba(55, 81, 126, 0.6);
   z-index: 2;
 }
 
@@ -291,15 +291,14 @@
 
 .cta-text h2 {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 27.5px;
   font-weight: 800;
   margin: 0 0 14px;
 }
 
 .cta-text p {
   color: #ffffff;
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 16px;
   margin: 0;
 }
 
@@ -312,11 +311,12 @@
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 30px;
-  padding: 12px 40px;
+  padding: 11px 45px;
   font-size: 16px;
   font-weight: 550;
   cursor: pointer;
   margin-right: 5px;
+  margin-bottom: 18px;
   transition: transform 0.3s ease
 }
 
@@ -341,7 +341,7 @@
 
 .faq-header h2 {
   color: #37517e;
-  font-size: 30px;
+  font-size: 33px;
   font-weight: 800;
   margin: 0 0 20px;
   position: relative;
@@ -350,7 +350,7 @@
 .faq-header h2::after {
   content: "";
   display: block;
-  width: 130px;
+  width: 170px;
   height: 1px;
   background-color: #c8c8c8;
   margin: 18px auto 0;
@@ -360,24 +360,24 @@
   content: "";
   position: absolute;
   right: 740px;
-  bottom: -0.5px;
+  bottom: -1.8px;
   transform: translateX(-50%);
-  width: 52px;
-  height: 3px;
+  width: 58px;
+  height: 3.5px;
   background-color: #47b2e4;
   z-index: 1;
 }
 
 .faq-header p {
-  width: 70%;
-  max-width: 1200px;
+  width: 83%;
+  max-width: 1500px;
   margin: 0px auto;
-  color: #555555;
+  color: #242424;
   font-size: 16px;
 }
 
 .faq .faq_container {
-  width: 70%;
+  width: 69%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -413,13 +413,13 @@
   height: 24px;
   object-fit: contain;
   flex-shrink: 0;
-  margin: 0 0 4px -10px;
+  margin: 0 0 4px -6px;
 }
 
 .faq-title {
   color: #37517e;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 800;
   margin: 0 0 0 -5px;
   padding: 0 0 5px;
   flex: 1;
@@ -453,7 +453,7 @@
 .faq-content p {
   color: #444444;
   font-size: 16px;
-  margin: -15px 0 0 -36px;
+  margin: -15px 0 0 -40px;
 }
 
 
@@ -472,8 +472,8 @@
 @keyframes zoomInUp {
   from {
     opacity: 0;
-    scale: 0.85;
-    translate: 0 80px;
+    scale: 1;
+    translate: 0 100px;
   }
   to {
     opacity: 1;
@@ -505,7 +505,7 @@
   animation-fill-mode: both;
   animation-timeline: view();
   animation-range: entry 0% cover 35%;  
-  animation-delay: 0.6s;
+  animation-delay: 2s;
 }
 
 /* 카드/FAQ 순차 애니메이션 */
@@ -518,26 +518,26 @@
 .service-card:nth-child(2),
 .wp_steps-item:nth-child(2),
 .faq-item:nth-child(2) {
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 
 .service-card:nth-child(3),
 .wp_steps-item:nth-child(3),
 .faq-item:nth-child(3) {
-  animation-delay: 1.5s;
+  animation-delay: 2.5s;
 }
 
 .service-card:nth-child(4),
 .faq-item:nth-child(4) {
-  animation-delay: 2s;
+  animation-delay: 3.5s;
 }
 
 .faq-item:nth-child(5) {
-  animation-delay: 2.5s;
+  animation-delay: 4.5s;
 }
 
 .section-title,
 .work-process .section-title,
 .faq-header {
-  animation-delay: 0.5s;
+  animation-delay: 5.5s;
 }
