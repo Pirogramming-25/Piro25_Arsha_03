@@ -243,12 +243,6 @@ body {
     #pricing .container-pricing-container > div:nth-child(3) { animation-range: entry 35% cover 50%; }
 }
 
-#pricing .pricing-item:hover,
-#pricing .pricing-item-featured:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-}
-
 #pricing h3 {
     color: #37517e;
     font-size: 20px;
