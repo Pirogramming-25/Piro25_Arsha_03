@@ -411,6 +411,44 @@
   }
 }
 
+@supports (animation-timeline: view()) {
+  .portfolio .section-title,
+  .portfolio .portfolio-filters,
+  .portfolio .portfolio-column {
+    animation: portfolio-scroll-rise 0.95s cubic-bezier(0.2, 0.65, 0.25, 1) both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 32%;
+  }
+
+  .portfolio .portfolio-filters {
+    animation-range: entry 6% cover 34%;
+  }
+
+  .portfolio .portfolio-column:first-child {
+    animation-range: entry 10% cover 38%;
+  }
+
+  .portfolio .portfolio-column:nth-child(2) {
+    animation-range: entry 14% cover 42%;
+  }
+
+  .portfolio .portfolio-column:nth-child(3) {
+    animation-range: entry 18% cover 46%;
+  }
+}
+
+@keyframes portfolio-scroll-rise {
+  from {
+    opacity: 0;
+    transform: translateY(78px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 @media (max-width: 991px) {
   .portfolio .portfolio-container {
     grid-template-columns: repeat(2, minmax(0, 1fr));
