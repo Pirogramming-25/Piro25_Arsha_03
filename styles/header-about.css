@@ -528,6 +528,7 @@ a {
 
 .section-title h2 {
   position: relative;
+  display: inline-block;
   margin: 0;
   padding-bottom: 18px;
   color: var(--primary-dark);
@@ -556,6 +557,10 @@ a {
   left: 50%;
   bottom: -1px;
   transform: translateX(-50%);
+}
+.about .container.section-title {
+  display: block;
+  text-align: center;
 }
 
 /* =========================================================
