@@ -328,7 +328,8 @@
   width: 56px;
   height: 56px;
   border-radius: 4px;
-  opacity: 0.72;
+  background: rgba(0, 0, 0, 0.32);
+  opacity: 0.9;
   transform: translateY(-50%);
   transition: 0.3s;
 }
@@ -341,14 +342,24 @@
 }
 
 .portfolio .portfolio-lightbox-nav:hover {
+  background: rgba(0, 0, 0, 0.48);
   opacity: 1;
 }
 
 .portfolio .portfolio-lightbox-nav.is-disabled {
   display: block;
-  opacity: 0;
+  background: transparent;
+  opacity: 1;
   pointer-events: auto;
   cursor: default;
+}
+
+.portfolio .portfolio-lightbox-nav.is-disabled::before {
+  background-color: rgba(255, 255, 255, 0.38);
+}
+
+.portfolio .portfolio-lightbox-nav.is-disabled:hover {
+  background: transparent;
 }
 
 .portfolio .portfolio-lightbox-prev {
