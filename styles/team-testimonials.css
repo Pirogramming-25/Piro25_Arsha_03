@@ -311,7 +311,7 @@ body {
 
 #pricing .na {
     color: #444444;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 #pricing .na span {
@@ -320,6 +320,7 @@ body {
 
 #pricing .na img {
     opacity: 1;
+    filter: none;
 }
 
 #pricing .buy-btn {
