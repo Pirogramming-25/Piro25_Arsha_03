@@ -51,8 +51,9 @@
     <div class="navigate">
         <a href="https://bootstrapmade.com/content/demo/Arsha/" target="_top" title="Hide the demo bar"></a>
         <a href="#"><img src="images/icons/box-arrow-up-right.svg" alt="bow_arrow_up"></a>
-        <a class="download" href="https://bootstrapmade.com/arsha-free-bootstrap-thml-template-corporate/#download" title="Download the Arsha Template">
-        <span>Download</span>
+        <a class="download" href="https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/#download" title="Download the Arsha Template">
+            <img src="images/icons/download.svg" alt="download">
+            <span>Download</span>
         </a>
     </div>
     </header>
@@ -139,22 +140,40 @@
     <main class="main">
     <section id="hero" class="hero section">
         <div class="container">
-        <h1>Better Solutions For Your Business</h1>
-        <p>We are team of talented designers making websites with Bootstrap</p>
-        <div class="d-flex">
-            <a href="#about" class="btn-get-started">Get Started</a>
-            <a href="#" class="glightbox btn-watch-video">
-                <img src="images/icons/play-circle.svg" alt="play_circle">
-                <span>Watch Video</span>
-            </a>
+
+            <div class="hero-content">
+                <h1>Better Solutions For Your Business</h1>
+                <p>We are team of talented designers making websites with Bootstrap</p>
+
+                <div class="d-flex">
+                    <a href="#about" class="btn-get-started">Get Started</a>
+
+                    <a href="#" class="btn-watch-video">
+                        <img src="images/icons/play-circle.svg" alt="play">
+                        <span>Watch Video</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-img">
+                <img src="images/hero/hero-img.png" alt="hero">
+            </div>
+
         </div>
-        </div>
-        <img src="images/hero/hero-img.png" class="img-fluid animated" alt="hero image">
     </section>
 
     <!--Clients Section-->
     <section id="clients" class="clients section">
         <div class="container">
+            <img src="images/clients/clients-1.webp" alt="clients1">
+            <img src="images/clients/clients-2.webp" alt="clients2">
+            <img src="images/clients/clients-3.webp" alt="clients3">
+            <img src="images/clients/clients-4.webp" alt="clients4">
+            <img src="images/clients/clients-5.webp" alt="clients5">
+            <img src="images/clients/clients-6.webp" alt="clients6">
+            <img src="images/clients/clients-7.webp" alt="clients7">
+            <img src="images/clients/clients-8.webp" alt="clients8">
+        
             <img src="images/clients/clients-1.webp" alt="clients1">
             <img src="images/clients/clients-2.webp" alt="clients2">
             <img src="images/clients/clients-3.webp" alt="clients3">
@@ -177,9 +196,8 @@
         <div class="container">
         <div class="row gy-4">
             <p>
-                " Lorem ipsum dolor sit amet, consectetur adipiscing elit, se do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, se do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            
             <ul>
                 <li>
                     <a href="#"><img src="images/icons/check2-circle.svg" alt="check2_circle"></a>
@@ -196,7 +214,7 @@
             </ul>
         </div>
         <p>
-            "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariature. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariature. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <a href="#" class="read-more">
             <span>Read More</span>
@@ -207,112 +225,119 @@
     <!--/About Section-->
     <!--Why Us Section-->
     <section id="why-us" class="section why-us">
-        <div class="container-fluid">
-            <div class="row gy-4">
+    <div class="container">
+        <div class="whyus-wrapper">
+            <!-- LEFT -->
+            <div class="whyus-left">
                 <h3>
                     <span>Eum ipsam laborum deleniti </span>
                     <strong>velit pariatur architecto aut nihil</strong>
                 </h3>
                 <p>
-                    " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit "
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
                 </p>
+                <!-- FAQ 1 -->
+                <details class="faq-item">
+                    <summary>
+                        <h3>
+                            <span>01</span>
+                            Non consectetur a erat nam at lectus urna duis?
+                        </h3>
+                        <img src="images/icons/chevron-right.svg" alt="chevron">
+                    </summary>
+                    <div class="faq-content">
+                        <p>
+                            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- FAQ 2 -->
+                <details class="faq-item">
+                    <summary>
+                        <h3>
+                            <span>02</span>
+                            Feugiat scelerisque varius morbi enim nunc faucibus?
+                        </h3>
+                        <img src="images/icons/chevron-right.svg" alt="chevron">
+                    </summary>
+                    <div class="faq-content">
+                        <p>
+                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                    </div>
+                </details>
+
+                <!-- FAQ 3 -->
+                <details class="faq-item">
+                    <summary>
+                        <h3>
+                            <span>03</span>
+                            Dolor sit amet consectetur adipiscing elit?
+                        </h3>
+                        <img src="images/icons/chevron-right.svg" alt="chevron">
+                    </summary>
+                    <div class="faq-content">
+                        <p>
+                            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                        </p>
+                    </div>
+                </details>
             </div>
-            <div class="faq-item faq-active">
-                <h3>
-                    <span>01</span>
-                    " Non consectetur a erat nam at lectus urna duis?"
-                </h3>
-                <div class="faq-content">
-                    <p>
-                        "Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non."
-                    </p>
-                </div>
-                <a href="#"><img src="images/icons/chevron-right.svg" alt="chevron_right"></a>
+            <!-- RIGHT -->
+            <div class="whyus-right">
+                <img src="images/why-us/why-us.png" alt="why us image">
             </div>
-            <!--End Faq item-->
-            <div class="faq-item">
-                <h3>
-                    <span>02</span>
-                    " Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?"
-                </h3>
-                <div class="faq-content">
-                    <p>
-                        "Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui."
-                    </p>
-                </div>
-                <a href="#"><img src="images/icons/chevron-right.svg" alt="chevron_right"></a>
-            </div>
-            <!--End Faq item-->
-            <div class="faq-content">
-                <h3>
-                    <span>03</span>
-                    "Dolor sit amet consectetur adipiscing elit pellentesque?"
-                </h3>
-                <div class="faq-content">
-                    <p>
-                        "Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis"
-                    </p>
-                </div>
-                <a href="#"><img src="images/icons/chevron-right.svg" alt="chevron_right"></a>
-            </div>
-            <!--End Faq item-->
         </div>
-        <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-            <img src="images/why-us/why-us.png" class="img-fluid">
-        </div>
-    </section>
+    </div>
+</section>
     <!--/Why Us Section-->
     <!--Skills Section-->
     <section id="skills" class="skills section">
-        <div class="row">
-            <img src="images/skills/skills-illustration.webp" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptas</h3>
-            <p class="fst-italic">
-                " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            </p>
-            <div class="skills-content skills-animation">
-                <div class="progress">
-                    <span class="skill">
-                        <span>HTML</span>
-                    </span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" role="progressbar"></div>
+    <div class="container">
+        <div class="skills-wrapper">
+            <!-- LEFT -->
+            <div class="skills-left">
+                <img src="images/skills/skills-illustration.webp" alt="skills illustration">
+            </div>
+            <!-- RIGHT -->
+            <div class="skills-right">
+                <h3>
+                    Voluptatem dignissimos provident quasi corporis voluptas
+                </h3>
+                <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="skills-content skills-animation">
+                    <div class="progress">
+                        <span class="skill">HTML</span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar"></div>
+                        </div>
                     </div>
-                </div>
-                <!--End Skills Item-->
-                <div class="progress">
-                    <span class="skill">
-                        <span>CSS</span>
-                    </span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" role="progressbar"></div>
+                    <div class="progress">
+                        <span class="skill">CSS</span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar"></div>
+                        </div>
                     </div>
-                </div>
-                <!--End Skills Item-->
-                <div class="progress">
-                    <span class="skill">
-                        <span>JavaScript</span>
-                    </span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" role="progressbar"></div>
+                    <div class="progress">
+                        <span class="skill">JavaScript</span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar"></div>
+                        </div>
                     </div>
-                </div>
-                <!--End Skills Item-->
-                <div class="progress">
-                    <span class="skill">
-                        <span>Photoshop</span>
-                    </span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" role="progressbar"></div>
+                    <div class="progress">
+                        <span class="skill">Photoshop</span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar"></div>
+                        </div>
                     </div>
-                </div>
-                <!--End Skills Item-->
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <!-- 한지수 담당 끝 -->
 
 <!-- 서영은 담당 시작 -->
