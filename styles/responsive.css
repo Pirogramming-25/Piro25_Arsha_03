@@ -29,12 +29,47 @@
   }
 }
 
+/* 1199px 이하 */
 @media (max-width: 1199px) {
   section,
   .section {
     scroll-margin-top: 66px;
   }
+
+  /* Subscribe*/
+  #subscribe .subscribe-container {
+    padding: 40px 40px;
+  }
+  #subscribe h3 {
+    font-size: 28px;
+  }
+  #subscribe .subscribe_Img {
+    max-width: 220px;
+  }
+
+  /* Recent Blog Posts: 3열 -> 2열 */
+  #recent-blog-post .blog-cards {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+  }
+
+  /* Contact: 2열 -> 1열 */
+  #contact_Whereabouts {
+    grid-template-columns: 1fr;
+    max-width: 700px;
+  }
+
+  /* Footer: 4열 -> 3열, Follow Us는 아래 줄로 */
+  #footer .footer-container {
+    grid-template-columns: 1.4fr 1fr 1.2fr;
+    gap: 30px;
+  }
+  #footer .footer-follow {
+    grid-column: 1 / -1;
+    margin-top: 10px;
+  }
 }
+
 
 @media (max-width: 768px) {
   .section-title {
@@ -44,7 +79,82 @@
   .section-title h2 {
     font-size: 28px;
   }
+
+  /* Subscribe*/
+  #subscribe {
+    padding: 40px 15px;
+  }
+  #subscribe .subscribe-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 35px 25px 0;
+  }
+  #subscribe .subscribe-content {
+    max-width: 100%;
+  }
+  #subscribe h3 {
+    font-size: 26px;
+  }
+  #subscribe_Email {
+    margin: 0 auto 25px;
+  }
+  #subscribe .subscribe_Img {
+    max-width: 200px;
+    margin-top: 0;
+  }
+
+  /* Recent Blog Posts: 1열 */
+  #recent-blog-post {
+    padding: 60px 20px;
+  }
+  #recent-blog-post .blog-cards {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+  #recent-blog-post .rbp-Intro h3 {
+    font-size: 28px;
+  }
+  #recent-blog-post .blog-card h4 {
+    min-height: auto;
+  }
+
+  /* Contact */
+  #contact {
+    padding: 60px 15px 0;
+  }
+  #contact .contact-Intro h2 {
+    font-size: 28px;
+  }
+
+  /* Contact 폼: 2열 -> 1열 */
+  #contact_Form .form-grid {
+    grid-template-columns: 1fr;
+  }
+  #contact_Form label.full {
+    grid-column: span 1;
+  }
+
+  /* Join Our Newsletter */
+  #join-our-newsletter {
+    padding: 50px 15px;
+    margin-top: 40px;
+  }
+
+  /* Footer: 1열 */
+  #footer {
+    padding: 50px 25px 20px;
+  }
+  #footer .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  #footer .footer-follow {
+    grid-column: span 1;
+    margin-top: 0;
+  }
 }
+
+
 
 @media (max-width: 575px) {
   section,
@@ -54,5 +164,151 @@
 
   .section-title h2 {
     font-size: 26px;
+  }
+
+  /* Subscribe */
+  #subscribe {
+    padding: 30px 12px;
+  }
+  #subscribe .subscribe-container {
+    padding: 30px 20px 0;
+    border-radius: 10px;
+  }
+  #subscribe h3 {
+    font-size: 24px;
+  }
+  #subscribe p {
+    font-size: 14px;
+  }
+  #subscribe_Email {
+    gap: 8px;
+  }
+  #subscribe_Email input[type="email"] {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+  #subscribe_Email_Btn {
+    padding: 0 18px;
+    font-size: 13px;
+  }
+  #subscribe .subscribe_Img {
+    max-width: 170px;
+  }
+
+  /* Recent Blog Posts */
+  #recent-blog-post {
+    padding: 40px 12px;
+  }
+  #recent-blog-post .rbp-Intro h3 {
+    font-size: 24px;
+  }
+  #recent-blog-post .rbp-Intro p {
+    font-size: 14px;
+  }
+  #recent-blog-post .blog-img {
+    height: 200px;
+  }
+  #recent-blog-post .blog-card h4 {
+    font-size: 17px;
+    padding: 22px 20px 10px;
+  }
+  #recent-blog-post .blog-meta,
+  #recent-blog-post .read-more {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Contact */
+  #contact {
+    padding: 40px 12px 0;
+  }
+  #contact .contact-Intro h2 {
+    font-size: 24px;
+  }
+  #contact .contact-Intro p {
+    font-size: 14px;
+  }
+  #contact_Whereabouts .contact-left,
+  #contact_Whereabouts #contact_Form {
+    padding: 20px;
+  }
+  .ci-Item {
+    gap: 15px;
+    padding: 14px 0;
+  }
+  .ci-Item h4 {
+    font-size: 18px;
+  }
+  .ci-Item p {
+    font-size: 13px;
+  }
+  .contact_Icon,
+  .contact-Icon {
+    width: 44px;
+    height: 44px;
+  }
+  .contact_Icon img,
+  .contact-Icon img {
+    width: 20px;
+    height: 20px;
+  }
+  .contact-Map iframe {
+    height: 250px;
+  }
+  #contact_Form input[type="text"],
+  #contact_Form input[type="email"],
+  #contact_Form textarea {
+    font-size: 13px;
+  }
+  #contact_Form textarea {
+    min-height: 120px;
+  }
+  #contact_Form button[type="submit"] {
+    padding: 11px 32px;
+  }
+
+  /* Join Our Newsletter */
+  #join-our-newsletter {
+    padding: 40px 12px;
+    margin-top: 30px;
+  }
+  #join-our-newsletter .join-our-newsletter_Intro h4 {
+    font-size: 22px;
+  }
+  #join-our-newsletter .join-our-newsletter_Intro p {
+    font-size: 14px;
+  }
+  #subscribe_Form {
+    padding: 4px;
+  }
+  #subscribe_Form input {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+  #subscribe_NL_Btn {
+    padding: 9px 20px;
+    font-size: 13px;
+  }
+
+  /* Footer */
+  #footer {
+    padding: 40px 20px 20px;
+  }
+  #footer .footer-col h4 a#home {
+    font-size: 24px;
+  }
+  #footer .footer-col h5 {
+    font-size: 15px;
+  }
+  #footer .footer-copyright {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+  #footer .follow-us_Links ul {
+    gap: 8px;
+  }
+  #footer .follow-us_Links ul li a {
+    width: 38px;
+    height: 38px;
   }
 }
