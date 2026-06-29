@@ -1,4 +1,16 @@
 /* Services / Work Process / Call To Action / FAQ: 서영은 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 /* Services.css */
 
 .services {
@@ -11,6 +23,9 @@
   text-align: center;
   margin-bottom: 55px;
 
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 10% cover 50%;
 }
 
 .section-title h2 {
@@ -66,7 +81,17 @@
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease-in-out;
   margin-top: -60px;
+
+  animation: fadeInUp 2s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 10% cover 50%;
 }
+
+/* 왼쪽부터 오른쪽 순서대로 시간차 애니메이션 */
+.service-card:nth-child(1) { animation-delay: 0s; }
+.service-card:nth-child(2) { animation-delay: 0.15s; }
+.service-card:nth-child(3) { animation-delay: 0.3s; }
+.service-card:nth-child(4) { animation-delay: 0.45s; }
 
 .service-card:hover {
   transform: translateY(-12px);
@@ -111,6 +136,10 @@
 .work-process .section-title {
   text-align: center;
   margin-bottom: 55px;
+
+  animation: fadeInUp 1s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 10% cover 50%;
 }
 
 .work-process .section-title h2 {
@@ -164,7 +193,16 @@
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  animation: fadeInUp 2s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 10% cover 50%;
 }
+
+/* 왼쪽부터 오른쪽 순서대로 시간차 애니메이션 */
+.wp_steps-item:nth-child(1) { animation-delay: 0s; }
+.wp_steps-item:nth-child(2) { animation-delay: 0.15s; }
+.wp_steps-item:nth-child(3) { animation-delay: 0.3s; }
 
 .wp_steps-item:hover {
   transform: translateY(-8px);
@@ -282,11 +320,17 @@
   justify-content: space-between;
   gap: 60px;
   margin-left: 68px;
+
 }
 
 .cta-text {
   flex: 1;
   margin-left: -65px;
+  
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 10% cover 50%;
+  animation-delay: 0.2s;
 }
 
 .cta-text h2 {
@@ -305,6 +349,11 @@
 
 .cta-button {
   flex-shrink: 0;
+
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 10% cover 50%;
+  animation-delay: 0.2s;
 }
 
 .cta-button button {
@@ -337,6 +386,10 @@
 .faq-header {
   text-align: center;
   margin-bottom: 60px;
+
+  animation: fadeInUp 3s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
 }
 
 .faq-header h2 {
@@ -390,7 +443,17 @@
 
 .faq-item {
   background-color: #ffffff;
+
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 }
+.faq-item:nth-child(1) { animation-delay: 0s; }
+.faq-item:nth-child(2) { animation-delay: 0.15s; }
+.faq-item:nth-child(3) { animation-delay: 0.3s; }
+.faq-item:nth-child(4) { animation-delay: 0.45s; }
+.faq-item:nth-child(5) { animation-delay: 0.6s; }
+
 
 .faq-item summary {
   list-style: none;
