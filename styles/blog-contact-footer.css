@@ -91,13 +91,11 @@
 
 
 #subscribe_Email_Btn:hover {
-    background: #209dd8;
+    background: #5ebae4;
 }
 
 
-#subscribe_Email_Btn:hover {
-    background: #209dd8;
-}
+
 
 #subscribe .subscribe_Img {
     max-width: 260px;
@@ -382,7 +380,7 @@
     transition: filter 0.3s ease;
 }
 
-/* hover 시 아이콘 배경 진한 파란색 + 아이콘 흰색 */
+
 .ci-Item:hover .contact_Icon,
 .ci-Item:hover .contact-Icon {
     background: #47b2e4;
@@ -492,7 +490,7 @@
 }
 
 #contact_Form button[type="submit"]:hover {
-    background: #209dd8;
+    background: #64bbe3;
 }
 
 /* -------- Join Our Newsletter -------- */
@@ -551,7 +549,7 @@
 }
 
 #subscribe_NL_Btn:hover {
-    background: #209dd8;
+    background: #73c6ed;
 }
 
 /*Footer */
@@ -640,6 +638,7 @@
     margin-bottom: 18px;
     font-size: 14px;
 }
+
 
 #footer .follow-us_Links ul {
     display: flex;
