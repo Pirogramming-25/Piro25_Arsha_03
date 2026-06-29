@@ -56,3 +56,399 @@
     font-size: 26px;
   }
 }
+
+/* 태블릿 */
+
+/* Tablet: 768px - 1199px */
+@media (min-width: 768px) and (max-width: 1199px){
+  .services {
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .section-title,
+  .work-process .section-title {
+    margin-bottom: 35px;
+    padding: 0 30px;
+  }
+
+  .section-title h2,
+  .work-process .section-title h2 {
+    font-size: 28px;
+  }
+
+  .section-title h2::before,
+  .work-process .section-title h2::before,
+  .faq-header h2::before {
+    left: 50%;
+    right: auto;
+    bottom: -0.5px;
+    transform: translateX(-50%);
+  }
+
+  .section-title p,
+  .work-process .section-title p {
+    font-size: 14.5px;
+    line-height: 1.7;
+  }
+
+  .services-container {width: 90%;}
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+  }
+
+  .service-card {
+    margin-top: 0;
+    padding: 38px 22px;
+  }
+
+  .service-card h4 {
+    font-size: 17px;
+    margin-left: 0;
+  }
+
+  .service-card p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-left: 0;
+  }
+
+  .service-card .service-icon img {margin-left: 0;}
+
+  .work-process {padding: 60px 0;}
+
+  .wp_steps-container {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    margin: -30px auto 0;
+    gap: 20px;
+  }
+
+
+  .wp_steps-item {
+    margin-top: 20px;
+    padding: 0 22px 28px;
+  }
+
+  .wp_steps-image {overflow: hidden;}
+
+  .wp_steps-image img {
+  object-fit: cover;
+  transform: scale(1.3);
+  transform-origin: center;
+  }
+  .wp_steps-item h3 {font-size: 18px;}
+
+  .call-to-action {
+    height: auto;
+    min-height: 330px;
+    padding: 70px 0;
+  }
+
+  .call-to-action .cta_container {width: 90%;}
+
+  .cta-content {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .cta-text {
+    flex: none;
+    max-width: 900px;
+    margin-left: 0;  
+  }
+
+  .cta-text h2 {font-size: 24px;}
+
+  .cta-text p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .cta-button button {
+    margin-right: 0;
+    padding: 11px 32px;
+  }
+
+  .faq {padding: 60px 0;}
+
+  .faq-header {
+    margin-bottom: 45px;
+    padding: 0 30px;
+  }
+
+  .faq-header h2 {font-size: 27px;}
+
+  .faq-header p {
+    width: 90%;
+    font-size: 14.5px;
+    line-height: 1.7;
+  }
+
+  .faq .faq_container {width: 88%;}
+
+  .faq-title {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .faq-content p {
+    font-size: 14.5px;
+    line-height: 1.7;
+  }
+}
+
+/* ------------------------------------------------------------------------------- */
+/* Mobile */
+@media (max-width: 767px){
+  .services {
+    height: auto;
+    padding: 50px 0;
+  }
+
+  .section-title,
+  .work-process .section-title {
+    margin-bottom: 38px;
+    padding: 0 20px;
+  }
+
+  .section-title h2,
+  .work-process .section-title h2 {
+    font-size: 34px;
+    line-height: 1.15;
+    margin-bottom: 14px;
+  }
+
+  .section-title h2::after,
+  .work-process .section-title h2::after {
+    width: 175px;
+    margin-top: 18px;
+  }
+
+  .section-title h2::before,
+  .work-process .section-title h2::before,
+  .faq-header h2::before {
+    left: 50%;
+    right: auto;
+    bottom: -0.5px;
+    transform: translateX(-50%);
+    width: 65px;
+  }
+
+  .section-title p,
+  .work-process .section-title p {
+    font-size: 18px;
+    line-height: 1.45;
+  }
+
+  .services-container {width: 94%;}
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .service-card {
+    margin-top: 0;
+    min-height: 285px;
+    padding: 66px 34px 42px;
+  }
+
+  .service-card .service-icon {
+    margin-bottom: 26px;
+  }
+
+  .service-card .service-icon img {
+    width: 44px;
+    margin-left: 0;
+  }
+
+  .service-card h4 {
+    font-size: 22px;
+    margin: 0 0 20px;
+  }
+
+  .service-card p {
+    font-size: 17px;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .work-process {padding: 60px 0;}
+
+  .work-process .section-title {
+    margin-bottom: 45px;
+  }
+
+  .wp_steps-container {
+    width: 94%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    gap: 44px;
+  }
+
+  .wp_steps-item {
+    margin-top: 0;
+    padding: 0 24px 36px;
+    border-radius: 18px;
+  }
+
+  .wp_steps-image {
+    height: 245px;
+    margin: 0 -24px 22px;
+    overflow: hidden;
+  }
+
+  .wp_steps-image img {
+    object-fit: cover;
+    transform: scale(1.02);
+  }
+
+  .wp_steps-number {
+    width: 56px;
+    height: 56px;
+    font-size: 22px;
+    margin-top: -52px;
+    margin-left: 6px;
+    margin-bottom: 18px;
+  }
+
+  .wp_steps-item h3 {
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+  }
+
+  .wp_steps-item p {
+    font-size: 17px;
+    line-height: 1.55;
+    margin-bottom: 24px;
+  }
+
+  .wp_steps-features {
+    gap: 18px;
+  }
+
+  .wp_feature-item {
+    gap: 12px;
+  }
+
+  .wp_feature-item img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .wp_feature-item span {
+    font-size: 17px;
+  }
+
+  .call-to-action {
+    height: auto;
+    min-height: 520px;
+    padding: 70px 0;
+  }
+
+  .call-to-action .cta_container {
+    width: 90%;
+  }
+
+  .cta-content {
+    min-height: 380px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 28px;
+    margin-left: 0;
+  }
+
+  .cta-text {
+    flex: none;
+    margin-left: 0;
+  }
+
+  .cta-text h2 {
+    font-size: 30px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+  }
+
+  .cta-text p {
+    font-size: 19px;
+    line-height: 1.45;
+  }
+
+  .cta-button {
+    width: auto;
+    margin-top: 0;
+  }
+
+  .cta-button button {
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 14px 42px;
+    font-size: 18px;
+  }
+
+  .faq {padding: 60px 0;}
+
+  .faq-header {
+    margin-bottom: 58px;
+    padding: 0 20px;
+  }
+
+  .faq-header h2 {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  .faq-header h2::after {width: 175px;}
+
+  .faq-header p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.45;
+  }
+
+  .faq .faq_container {width: 94%;}
+
+  .faq-list {gap: 22px;}
+
+  .faq-item summary {
+    min-height: 96px;
+    padding: 22px 24px;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .faq-icon {
+    width: 23px;
+    height: 23px;
+    margin: 2px 0 0;
+  }
+
+  .faq-title {
+    font-size: 20px;
+    line-height: 1.35;
+    margin: 0;
+    padding: 0;
+  }
+
+  .faq-item summary::after {
+    font-size: 0px;
+    margin-top: -4px;
+  }
+
+  .faq-content p {
+    font-size: 17px;
+    line-height: 1.55;
+  }
+}
