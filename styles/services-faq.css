@@ -32,7 +32,7 @@
 .section-title h2::before {
   content: "";
   position: absolute;
-  left: 5%;
+  left: 35%;
   bottom: -1px;
   transform: translateX(-50%);
   width: 55px;
@@ -131,7 +131,7 @@
 .work-process .section-title h2::before {
   content: "";
   position: absolute;
-  left: 5%;
+  left: 25%;
   bottom: -1px;
   transform: translateX(-50%);
   width: 60px;
@@ -147,7 +147,7 @@
 }
 
 .wp_steps-container {
-  max-width: 1350px;
+  width: 1400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: -100px;
@@ -217,7 +217,7 @@
 
 .wp_steps-item p {
   color: #666666;
-  font-size: 16px;
+  font-size: 15px;
   margin: 0 0 26px;
 }
 
@@ -241,7 +241,7 @@
 
 .wp_feature-item span {
   color: #666666;
-  font-size: 13.5px;
+  font-size: 14px;
 }
 
 /* ------------------------------------------------------------------------------- */
