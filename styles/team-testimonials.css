@@ -100,7 +100,7 @@ body {
     border-radius: 6px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, .1);
     box-sizing: border-box;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.7s ease, box-shadow 0.5s ease;
 }
 
 @supports (animation-timeline: view()) {
@@ -116,8 +116,8 @@ body {
 }
 
 #team .team-member:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
 }
 
 #team .pic {
